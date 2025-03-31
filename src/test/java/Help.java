@@ -10,8 +10,8 @@ public class Help {
 
         System.out.println("\n");
 
-        switch (choice){
-            case  '1':
+        switch (choice) {
+            case '1':
                 System.out.println("Оператор if:\n");
                 System.out.println("if(условие) оператор;");
                 System.out.println("else оператор;");
@@ -27,8 +27,8 @@ public class Help {
                 break;
             default:
                 System.out.print("Запрос не найден.");
-                }
-
+        }
 
     }
+
 }
